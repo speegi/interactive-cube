@@ -24,6 +24,7 @@ export default function MyInteractivCube()
                 onClick={(event)=>setToggle(!toggle)}
             >
                 <boxGeometry args={[1,1,1,15,15,15]}/>
+                {/*<octahedronGeometry args={[0.5,8]}/>*/}
                 <MeshDistortMaterial color={hover?'blue':'gray'} distort={1} speed={1}/>        
             </animated.mesh>
        
