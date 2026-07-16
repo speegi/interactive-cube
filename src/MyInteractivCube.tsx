@@ -9,7 +9,7 @@ export default function MyInteractivCube()
     const[toggle,setToggle]= useState(false)
     const { scale } = useSpring({
         scale: toggle ? 1 : 1.4,
-        config: { mass: 1, tension: 200, friction: 20 }
+        config: { mass: 3, tension: 400, friction: 20 }
     });
 
     return(
