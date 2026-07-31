@@ -6,7 +6,7 @@ function App() {
 
   return (
     <div className="app-shell">
-      <h1>blabla</h1>
+      <h1>Interactiv Cube</h1>
       <div className="canvas-wrapper">
         <Three />
       </div>

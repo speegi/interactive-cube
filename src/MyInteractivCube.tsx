@@ -25,7 +25,7 @@ export default function MyInteractivCube()
             >
                 <boxGeometry args={[1,1,1,15,15,15]}/>
                 {/*<octahedronGeometry args={[0.5,8]}/>*/}
-                <MeshDistortMaterial color={hover?'blue':'gray'} distort={1} speed={1}/>        
+                <MeshDistortMaterial color={hover?'black':'gray'} distort={1} speed={0.7}/>        
             </animated.mesh>
        
     )
