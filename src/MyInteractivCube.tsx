@@ -19,9 +19,9 @@ export default function MyInteractivCube()
                 castShadow
                 scale={scale}
                 
-                onPointerOver={(event)=>setHover(true)}
-                onPointerOut={(event)=>setHover(false)}
-                onClick={(event)=>setToggle(!toggle)}
+                onPointerOver={()=>setHover(true)}
+                onPointerOut={()=>setHover(false)}
+                onClick={()=>setToggle(!toggle)}
             >
                 <boxGeometry args={[1,1,1,15,15,15]}/>
                 {/*<octahedronGeometry args={[0.5,8]}/>*/}
