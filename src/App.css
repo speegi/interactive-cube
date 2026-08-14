@@ -10,14 +10,11 @@ body,
   padding: 0;
 }
 
-body {
-  min-height: 100vh;
-}
 
 .app-shell {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  height: 100%;
 }
 
 .app-shell h1 {
